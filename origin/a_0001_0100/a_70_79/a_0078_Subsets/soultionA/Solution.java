@@ -1,8 +1,15 @@
+package a_70_79.a_0078_Subsets.soultionA;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * 12.17提交
+ * 执行用时: 2 ms
+ * 内存消耗: 38.7 MB
+ */
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> resList = new ArrayList<>();
