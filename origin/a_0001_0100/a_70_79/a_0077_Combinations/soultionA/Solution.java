@@ -7,6 +7,17 @@ import java.util.List;
  * 12.18提交
  * 执行用时：58 ms
  * 内存消耗：39.6 MB
+ *
+ * n=4, k=2
+ *                  {1,  2,  3,  4}
+ *             /           |       |   \
+ *           取1          取2     取3   取4
+ *           /            |        |    \
+ *        {2,3,4}       {3,4}     {4}   {}
+ *      /   |   \       /   \      |
+ *    取2  取3  取4     取3  取4    取4
+ *    /    |     \     /     \     |
+ * [1,2] [1,3] [1,4] [2,3] [2,4] [3,4]
  */
 public class Solution {
     public List<List<Integer>> combine(int n, int k) {
