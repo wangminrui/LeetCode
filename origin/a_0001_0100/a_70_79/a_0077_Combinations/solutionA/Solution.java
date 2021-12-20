@@ -1,4 +1,4 @@
-package a_70_79.a_0077_Combinations.soultionA;
+package a_70_79.a_0077_Combinations.solutionA;
 
 import java.util.ArrayList;
 import java.util.List;
