@@ -1,4 +1,4 @@
-package a_70_79.a_0077_Combinations.solutionB;
+package a_0001_0100.a_71_80.a_0077_Combinations.solutionB;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -55,7 +55,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        a_70_79.a_0077_Combinations.solutionA.Solution s = new a_70_79.a_0077_Combinations.solutionA.Solution();
+        Solution s = new Solution();
         System.out.println(s.combine(4, 4));
     }
 }

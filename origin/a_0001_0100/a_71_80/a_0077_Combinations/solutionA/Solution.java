@@ -1,4 +1,4 @@
-package a_70_79.a_0077_Combinations.solutionA;
+package a_0001_0100.a_71_80.a_0077_Combinations.solutionA;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,3 +43,4 @@ public class Solution {
         System.out.println(s.combine(4, 2));
     }
 }
+
