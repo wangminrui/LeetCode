@@ -8,6 +8,10 @@ import java.util.List;
  * 执行用时：1 ms, 在所有Java提交中击败了18.13%的用户
  * 内存消耗：35.7 MB, 在所有Java提交中击败了83.42%的用户
  * 通过测试用例：18/18
+ *
+ * 回溯问题优先思考构造树结构
+ * 此问题树结构根集合即1-9的集合，深度为k
+ * 终止条件为tmpList集合元素和等于n
  */
 public class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
